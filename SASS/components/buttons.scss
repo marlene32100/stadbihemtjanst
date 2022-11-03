@@ -1,0 +1,18 @@
+.button-primary {
+  padding: 1.2rem 2.5rem;
+  background-color: $black;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  color: $white;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  font-family: $syne;
+}

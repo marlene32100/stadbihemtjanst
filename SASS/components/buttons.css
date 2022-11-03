@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+.button-primary {
+  padding: 1.2rem 2.5rem;
+  background-color: rgb(2, 0, 0);
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  color: rgb(253, 251, 251);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.9rem 1.5rem;
+  background-color: #3898ec;
+  color: rgb(253, 251, 251);
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}/*# sourceMappingURL=buttons.css.map */
