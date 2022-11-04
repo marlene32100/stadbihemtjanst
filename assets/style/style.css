@@ -197,6 +197,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 }
 
 .open-nav-menu-wrapper {
+  display: none;
   z-index: 3;
   position: absolute;
   bottom: 0;
