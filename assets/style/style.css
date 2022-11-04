@@ -203,8 +203,9 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   bottom: 0;
   left: 0;
   background-color: #f4f806;
-  width: 100vw;
-  height: 80vh;
+  width: 90vw;
+  height: 70vh;
+  margin: 1rem;
 }
 
 .open-navigation {
