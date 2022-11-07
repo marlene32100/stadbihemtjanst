@@ -208,7 +208,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #e6e86eca;
+  background-color: #fff44f;
   width: 90vw;
   height: 70vh;
 }
@@ -248,7 +248,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   position: relative;
 
   min-height: 30rem;
-  background-color: #e6e86eca;
+  background-color: #fff44f;
   width: 100%;
 }
 .hero-section .hero-section-wrapper {
@@ -301,7 +301,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 }
 
 .custom-shape-divider-top-1667469215 .shape-fill {
-  fill: #e6e86eca;
+  fill: #fff44f;
 }
 
 .tjanster-section {
@@ -355,7 +355,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 }
 
 .testimonial-container {
-  background-color: #e6e86eca;
+  background-color: #fff44f;
 }
 .testimonial-container .testimonial-incipit {
   font-size: 2rem;
@@ -454,11 +454,11 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   height: 121px;
 }
 .gallery-section .custom-shape-divider-bottom-1667493924 .shape-fill {
-  fill: #e6e86eca;
+  fill: #fff44f;
 }
 
 footer {
-  background-color: #e6e86eca;
+  background-color: #fff44f;
   padding-top: 3rem;
   width: 100%;
 }
@@ -648,7 +648,7 @@ footer .footer-wrapper .footer-area .footer-social-icon {
     grid-template-columns: auto;
     align-items: center;
     min-height: 30rem;
-    background-color: #e6e86eca;
+    background-color: #fff44f;
     width: 100%;
   }
   .hero-section .hero-section-wrapper {
@@ -700,7 +700,7 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   }
 
   .custom-shape-divider-top-1667469215 .shape-fill {
-    fill: #e6e86eca;
+    fill: #fff44f;
   }
 
   .tjanster-section {
@@ -753,7 +753,7 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   .testimonial-container {
     margin: 6rem;
     padding: 6rem;
-    background-color: #e6e86eca;
+    background-color: #fff44f;
   }
   .testimonial-container .testimonial-incipit {
     font-size: 2rem;
@@ -854,11 +854,11 @@ footer .footer-wrapper .footer-area .footer-social-icon {
     height: 121px;
   }
   .gallery-section .custom-shape-divider-bottom-1667493924 .shape-fill {
-    fill: #e6e86eca;
+    fill: #fff44f;
   }
 
   footer {
-    background-color: #e6e86eca;
+    background-color: #fff44f;
     padding-top: 3rem;
   }
   footer .footer-wrapper {
