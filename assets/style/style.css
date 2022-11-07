@@ -211,7 +211,6 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   background-color: #f2f472;
   width: 90vw;
   height: 70vh;
-  margin: 1rem;
 }
 
 .open-navigation {
@@ -263,6 +262,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   width: 100%;
   object-fit: contain;
   text-align: center;
+  padding-left: 3rem;
 }
 .hero-section .hero-section-wrapper .hero-section-text {
   color: rgb(2, 0, 0);
@@ -400,6 +400,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   max-width: 940px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 3rem;
 }
 .gallery-section .gallery-container .gallery-wrapper {
   display: grid;
@@ -410,7 +411,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 20rem;
+  height: 15rem;
 }
 .gallery-section
   .gallery-container
@@ -522,9 +523,22 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   padding: 1rem 0;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
+/* Small devices (landscape phones, 540px and up)*/
+@media only screen and (min-width: 540px) {
+  .gallery-container {
+    margin-bottom: 3rem;
+  }
+  .gallery-section .gallery-container .gallery-wrapper .gallery-area {
+    height: 20rem;
+  }
+}
 
 /* Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .gallery-container {
+    margin-bottom: 6rem;
+  }
+}
 
 /* Large devices (desktops, 992px and up)*/
 
