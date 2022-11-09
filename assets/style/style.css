@@ -566,6 +566,7 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   position: relative;
   margin: auto;
   text-align: center;
+  height: 90vh;
 }
 
 .omoss-video-wrapper .overlay {
@@ -581,6 +582,10 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   height: 90vh;
   object-fit: cover;
   z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* TJANSTER */
@@ -818,11 +823,19 @@ span.kontakt-email-link {
     margin-bottom: 6rem;
   }
 
+  .omoss-video-wrapper {
+    height: fit-content;
+  }
+
   #background-video {
     width: 80%;
     height: auto;
     object-fit: cover;
     z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
 
   footer {
