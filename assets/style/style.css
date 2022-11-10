@@ -58,6 +58,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+main {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   cursor: url(../images/icons/bee-cursor.svg), auto;
@@ -588,6 +592,32 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   transform: translate(-50%, -50%);
 }
 
+.omoss-text-area {
+  margin: 1rem;
+}
+
+.omoss-text-paragraph p {
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.omoss-text-paragraph h3 {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+}
+
+.omoss-text-area .omoss-text-paragraph .omoss-text-paragraph-caption {
+  font-size: 1.6rem;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
 /* TJANSTER */
 .tjanster-container hr {
   border: 0;
@@ -838,6 +868,11 @@ span.kontakt-email-link {
     transform: translate(0, 0);
   }
 
+  .omoss-text-area {
+    width: 80%;
+    margin: auto;
+  }
+
   footer {
     background-color: #fff44f;
     padding-top: 3rem;
@@ -981,6 +1016,10 @@ span.kontakt-email-link {
     height: auto;
     object-fit: cover;
     z-index: -1;
+  }
+  .omoss-text-area {
+    width: 60%;
+    margin: auto;
   }
 }
 
