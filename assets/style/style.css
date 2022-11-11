@@ -250,8 +250,6 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 
 .hero-section {
   position: relative;
-  padding-bottom: 1rem;
-  overflow: visible;
   min-height: 30rem;
   background-color: #fff44f;
   width: 100%;
