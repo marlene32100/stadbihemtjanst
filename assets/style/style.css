@@ -253,7 +253,6 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   background-color: #fff44f;
   width: 100%;
   z-index: 5;
-  overflow: visible;
 }
 .hero-section .hero-section-wrapper {
   position: relative;
@@ -399,6 +398,14 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   font-size: 1rem;
   font-style: italic;
   text-align: center;
+}
+
+.testimonial-container .testimonial-picture figcaption span {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
 }
 
 .gallery-section {
@@ -1287,4 +1294,9 @@ span.kontakt-email-link {
   .gallery-section .custom-shape-divider-bottom-1667493924 .shape-fill {
     fill: #fff44f;
   }
+}
+
+header,
+footer {
+  display: none;
 }
