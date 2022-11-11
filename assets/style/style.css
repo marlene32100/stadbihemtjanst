@@ -258,6 +258,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 .hero-section .hero-section-wrapper {
   position: relative;
   align-items: center;
+  z-index: 5;
 }
 .hero-section .hero-section-wrapper .hero-section-area {
   text-align: center;
