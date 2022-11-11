@@ -47,6 +47,7 @@ body {
 
 html {
   width: 100vw;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -249,6 +250,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
 
 .hero-section {
   position: relative;
+
   min-height: 30rem;
   background-color: #fff44f;
   width: 100%;
@@ -391,13 +393,6 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   font-size: 1rem;
   font-style: italic;
   text-align: center;
-}
-.testimonial-container .testimonial-picture figcaption span {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1rem;
-  font-style: italic;
-  text-align: center;
-  font-weight: 600;
 }
 
 .gallery-section {
