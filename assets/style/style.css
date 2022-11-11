@@ -253,6 +253,7 @@ nav .unordered-list-menu .list-menu-item .list-menu-button-wrapper a {
   background-color: #fff44f;
   width: 100%;
   z-index: 5;
+  overflow: visible;
 }
 .hero-section .hero-section-wrapper {
   position: relative;
