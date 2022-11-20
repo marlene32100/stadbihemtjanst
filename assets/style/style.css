@@ -674,6 +674,26 @@ p.footer-mailto-text.kontakt-text a {
   width: 2rem;
 }
 
+.tjanster-slogan {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.tjanster-slogan span {
+  font-weight: 800;
+}
+
+.asterisk-specification {
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .tjanst-area {
   padding: 60px 15px;
   position: relative;
@@ -712,7 +732,7 @@ p.footer-mailto-text.kontakt-text a {
 
 .metrics {
   position: relative;
-  padding: 60px 30px;
+  padding: 60px 10px;
 }
 .metrics-container {
   width: 100%;
@@ -727,6 +747,7 @@ p.footer-mailto-text.kontakt-text a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 .metrics-block {
   display: flex;
@@ -737,10 +758,14 @@ p.footer-mailto-text.kontakt-text a {
 }
 .metrics-block-title p {
   margin-bottom: 8px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 48px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+}
+
+.metrics-block-description p {
+  font-size: 1rem;
 }
 
 /* KONTAKT */
@@ -809,6 +834,34 @@ span.kontakt-email-link {
     color: rgb(2, 0, 0);
     text-transform: uppercase;
     text-align: center;
+  }
+  .asterisk-specification {
+    font-size: 1rem;
+    font-style: italic;
+    padding-left: 1rem;
+    line-height: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .metrics {
+    position: relative;
+    padding: 60px 30px;
+  }
+  .metrics-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .metrics-block-title p {
+    margin-bottom: 8px;
+    font-size: 2rem;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  }
+  .metrics-block-description p {
+    font-size: 1.2rem;
   }
 }
 
