@@ -528,6 +528,22 @@ footer .footer-wrapper .footer-area .footer-social-icon {
   vertical-align: middle;
 }
 
+p.footer-mailto-text.kontakt-text {
+  margin: 1rem auto;
+  text-align: left;
+}
+
+p.footer-mailto-text.kontakt-text a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(2, 0, 0);
+}
+
+.footer-kontakt-icon {
+  height: 2rem;
+  vertical-align: middle;
+}
+
 .footer-copyright {
   background-color: rgb(2, 0, 0);
   text-align: center;
