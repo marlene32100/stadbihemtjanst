@@ -505,7 +505,6 @@ footer .footer-wrapper .footer-area .footer-address {
   font-size: 1rem;
   font-style: italic;
   text-align: center;
-  padding: 2rem 0;
 }
 footer .footer-wrapper .footer-area .footer-mailto-text {
   color: rgb(253, 251, 251);
@@ -526,6 +525,7 @@ footer .footer-wrapper .footer-area .footer-social-text {
 footer .footer-wrapper .footer-area .footer-social-icon {
   height: 4rem;
   vertical-align: middle;
+  margin-left: 10px;
 }
 
 p.footer-mailto-text.kontakt-text {
@@ -989,7 +989,7 @@ span.kontakt-email-link {
     font-size: 1rem;
     font-style: italic;
     text-align: center;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
   }
   footer .footer-wrapper .footer-area .footer-mailto-text {
     color: rgb(253, 251, 251);
